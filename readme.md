@@ -1,0 +1,1 @@
+이전 예제를 tailwindcss로 만들어봄
