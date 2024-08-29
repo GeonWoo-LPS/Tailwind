@@ -1,9 +1,9 @@
 {
   "scripts": {
     "start": "run-p watch serve",
-    "dev": "tailwindcss -i ./src/styles/input.css -o ./src/styles/main.css",
+    "dev": "tailwindcss -i ./src/styles/input.css -o ./src/styles/output.css",
     "watch": "npm run dev -- --watch",
-    "serve": "live-server --open=/src/ --port=8090 --host=localhost"
+    "serve": "live-server --open=/src/home.html --port=8080 --host=localhost"
   },
   "devDependencies": {
     "live-server": "^1.2.2",
