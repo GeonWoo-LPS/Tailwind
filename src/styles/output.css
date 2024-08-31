@@ -651,6 +651,10 @@ video {
   border-width: 39px;
 }
 
+.border {
+  border-width: 1px;
+}
+
 .border-b-0 {
   border-bottom-width: 0px;
 }
@@ -695,6 +699,22 @@ video {
 
 .bg-\[url\(\'\.\.\/re-example\/wood\/images\/header-bg\.png\'\)\] {
   background-image: url('../re-example/wood/images/header-bg.png');
+}
+
+.bg-\[url\(\.\/re-example\/fresh\/images\/cover\)\] {
+  background-image: url(./re-example/fresh/images/cover);
+}
+
+.bg-\[url\(\.\.\/re-example\/fresh\/images\/cover\)\] {
+  background-image: url(../re-example/fresh/images/cover);
+}
+
+.bg-\[url\(\.\.\/re-example\/fresh\/images\/cover\.png\)\] {
+  background-image: url(../re-example/fresh/images/cover.png);
+}
+
+.bg-\[url\(\.\.\/re-example\/fresh\/images\/cover2\.png\)\] {
+  background-image: url(../re-example/fresh/images/cover2.png);
 }
 
 .bg-cover {
@@ -755,6 +775,11 @@ video {
   font-size: 32px;
 }
 
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .font-black {
   font-weight: 900;
 }
@@ -805,6 +830,11 @@ video {
 .text-woodmain {
   --tw-text-opacity: 1;
   color: rgb(255 165 0 / var(--tw-text-opacity));
+}
+
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
 .after\:block::after {
