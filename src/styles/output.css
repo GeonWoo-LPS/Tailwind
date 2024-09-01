@@ -558,6 +558,11 @@ video {
   margin: auto;
 }
 
+.my-\[30px\] {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .mb-5 {
   margin-bottom: 1.25rem;
 }
@@ -580,6 +585,10 @@ video {
 
 .mt-\[50px\] {
   margin-top: 50px;
+}
+
+.mb-\[30px\] {
+  margin-bottom: 30px;
 }
 
 .inline-block {
@@ -613,6 +622,10 @@ video {
 
 .h-\[200px\] {
   height: 200px;
+}
+
+.h-\[300px\] {
+  height: 300px;
 }
 
 .w-\[480px\] {
@@ -690,6 +703,10 @@ video {
 
 .rounded-full {
   border-radius: 9999px;
+}
+
+.rounded-\[50px\] {
+  border-radius: 50px;
 }
 
 .border-8 {
@@ -781,12 +798,24 @@ video {
   background-image: url(../re-example/citrus/images/bg.png);
 }
 
+.bg-\[url\(\.\.\/re-example\/citrus\/images\/contents-bg\.png\)\] {
+  background-image: url(../re-example/citrus/images/contents-bg.png);
+}
+
 .bg-cover {
   background-size: cover;
 }
 
 .bg-center {
   background-position: center;
+}
+
+.bg-right {
+  background-position: right;
+}
+
+.bg-right-bottom {
+  background-position: right bottom;
 }
 
 .bg-no-repeat {
@@ -807,6 +836,10 @@ video {
 
 .p-\[60px\] {
   padding: 60px;
+}
+
+.p-\[50px\] {
+  padding: 50px;
 }
 
 .px-2 {
@@ -846,6 +879,10 @@ video {
   text-indent: -9999px;
 }
 
+.align-super {
+  vertical-align: super;
+}
+
 .font-\[\'arial\'\] {
   font-family: 'arial';
 }
@@ -882,6 +919,14 @@ video {
   font-size: 32px;
 }
 
+.text-\[40px\] {
+  font-size: 40px;
+}
+
+.text-\[0\.5em\] {
+  font-size: 0.5em;
+}
+
 .font-black {
   font-weight: 900;
 }
@@ -892,6 +937,10 @@ video {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.font-normal {
+  font-weight: 400;
 }
 
 .leading-5 {
@@ -1008,6 +1057,11 @@ video {
 .text-orange-500 {
   --tw-text-opacity: 1;
   color: rgb(249 115 22 / var(--tw-text-opacity));
+}
+
+.text-\[\#666666\] {
+  --tw-text-opacity: 1;
+  color: rgb(102 102 102 / var(--tw-text-opacity));
 }
 
 .after\:block::after {
