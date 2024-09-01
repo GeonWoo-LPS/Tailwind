@@ -582,6 +582,10 @@ video {
   margin-top: 50px;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
 .flex {
   display: flex;
 }
@@ -665,6 +669,10 @@ video {
 
 .border-\[39px\] {
   border-width: 39px;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .border-b-0 {
