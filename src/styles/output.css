@@ -1000,6 +1000,16 @@ video {
   color: rgb(255 69 0 / var(--tw-text-opacity));
 }
 
+.text-orange-400 {
+  --tw-text-opacity: 1;
+  color: rgb(251 146 60 / var(--tw-text-opacity));
+}
+
+.text-orange-500 {
+  --tw-text-opacity: 1;
+  color: rgb(249 115 22 / var(--tw-text-opacity));
+}
+
 .after\:block::after {
   content: var(--tw-content);
   display: block;
@@ -1019,4 +1029,24 @@ video {
   content: var(--tw-content);
   --tw-border-opacity: 1;
   border-color: rgb(255 165 0 / var(--tw-border-opacity));
+}
+
+.hover\:bg-\[url\(\.\.\/re-example\/citrus\/images\/lemon\.png\)\]:hover {
+  background-image: url(../re-example/citrus/images/lemon.png);
+}
+
+.hover\:bg-\[url\(\.\.\/re-example\/citrus\/images\/jamong\.png\)\]:hover {
+  background-image: url(../re-example/citrus/images/jamong.png);
+}
+
+.hover\:bg-\[url\(\.\.\/re-example\/citrus\/images\/prange\.png\)\]:hover {
+  background-image: url(../re-example/citrus/images/prange.png);
+}
+
+.hover\:bg-\[url\(\.\.\/re-example\/citrus\/images\/orange\.png\)\]:hover {
+  background-image: url(../re-example/citrus/images/orange.png);
+}
+
+.hover\:indent-\[-9999px\]:hover {
+  text-indent: -9999px;
 }
