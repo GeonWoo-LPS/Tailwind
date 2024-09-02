@@ -1159,6 +1159,22 @@ video {
   height: 3rem;
 }
 
+.\*\:items-center > * {
+  align-items: center;
+}
+
+.\*\:rounded-\[4px\] > * {
+  border-radius: 4px;
+}
+
+.\*\:rounded > * {
+  border-radius: 0.25rem;
+}
+
+.\*\:rounded-\[10px\] > * {
+  border-radius: 10px;
+}
+
 .\*\:border-4 > * {
   border-width: 4px;
 }
@@ -1171,6 +1187,31 @@ video {
 .\*\:bg-white > * {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.\*\:pl-\[14px\] > * {
+  padding-left: 14px;
+}
+
+.\*\:text-\[16px\] > * {
+  font-size: 16px;
+}
+
+.\*\:font-bold > * {
+  font-weight: 700;
+}
+
+.\*\:leading-\[48px\] > * {
+  line-height: 48px;
+}
+
+.\*\:leading-10 > * {
+  line-height: 2.5rem;
+}
+
+.\*\:text-\[\#888888\] > * {
+  --tw-text-opacity: 1;
+  color: rgb(136 136 136 / var(--tw-text-opacity));
 }
 
 .before\:block::before {
