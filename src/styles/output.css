@@ -1189,6 +1189,54 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.\*\:bg-\[\.\.\/re-example\/bucketlist\/images\/check\.png\] > * {
+  background-color: ../re-example/bucketlist/images/check.png;
+}
+
+.\*\:bg-opacity-0 > * {
+  --tw-bg-opacity: 0;
+}
+
+.\*\:bg-\[url\(\.\.\/re-example\/bucketlist\/images\/check\.png\)\] > * {
+  background-image: url(../re-example/bucketlist/images/check.png);
+}
+
+.\*\:bg-none > * {
+  background-image: none;
+}
+
+.\*\:bg-right > * {
+  background-position: right;
+}
+
+.\*\:bg-\[right_14px\] > * {
+  background-position: right 14px;
+}
+
+.\*\:bg-\[right_right_14px\] > * {
+  background-position: right right 14px;
+}
+
+.\*\:bg-\[center_right_14px\] > * {
+  background-position: center right 14px;
+}
+
+.\*\:bg-\[center_right_-14px\] > * {
+  background-position: center right -14px;
+}
+
+.\*\:bg-\[center_right_-20px\] > * {
+  background-position: center right -20px;
+}
+
+.\*\:bg-\[center_right_-30px\] > * {
+  background-position: center right -30px;
+}
+
+.\*\:bg-no-repeat > * {
+  background-repeat: no-repeat;
+}
+
 .\*\:pl-\[14px\] > * {
   padding-left: 14px;
 }
