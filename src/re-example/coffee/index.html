@@ -8,7 +8,26 @@
   </head>
   <body class="bg-[url(../re-example/coffee/images/background.png)] p-10">
     <div class="w-[1076px] border m-auto mt-[270px] grid grid-cols-[244px_1fr]">
-      <aside class="min-h-[539px]">sidebar</aside>
+      <aside
+        class="min-h-[539px] bg-[url(../re-example/coffee/images/sidebar-background.png)] bg-no-repeat bg-cover px-4"
+      >
+        <div class="flex items-center gap-[27px] mt-[-10px]">
+          <h1
+            class="text-white text-2xl font-bold after:h-2 after:w-[100%] after:bg-[#444444] after:block"
+          >
+            MugApp
+          </h1>
+          <img class="w-[79px]" src="./images/coffee-icon.png" alt="" />
+        </div>
+        <p class="text-[#999999] text-[14px] leading-[1.4em] mt-2">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+          commodo ligula eget dolor.
+        </p>
+        <div>
+          <a href="">LOCATION</a>
+          <a href="">SHARE</a>
+        </div>
+      </aside>
       <main class="grow">content</main>
     </div>
   </body>
