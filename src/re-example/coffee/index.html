@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="../../styles/output.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
   </head>
-  <body class="bg-[url(../re-example/coffee/images/background.png)] p-10">
+  <body
+    class="bg-[url(../re-example/coffee/images/background.png)] p-10 font-['montserrat']"
+  >
     <div class="w-[1076px] border m-auto mt-[270px] grid grid-cols-[244px_1fr]">
       <aside
         class="min-h-[539px] bg-[url(../re-example/coffee/images/sidebar-background.png)] bg-no-repeat bg-cover px-4"
@@ -56,13 +61,39 @@
           <div
             class="border-b-8 flex items-center *:text-[#666666] *:font-bold"
           >
-            <h1 class="grow">Reviews</h1>
-            <span class="shrink-0">VIEW ALL</span>
+            <h1 class="grow text-2xl">Reviews</h1>
+            <span
+              class="shrink-0 block bg-[#EEEEEE] h-[18px] leading-[18px] px-[11px] text-[10px] rounded-full"
+              >VIEW ALL</span
+            >
           </div>
-          <div class="grid grid-cols-6 gap-4 *:col-span-2">
-            <p>1</p>
-            <p>2</p>
-            <p>3</p>
+          <div
+            class="grid grid-cols-6 gap-4 mt-4 *:col-span-2 *:bg-[#EEEEEE] *:min-h-[250px] *:p-4 *:rounded-md *:text-sm *:leading-[1.4] *:flex *:flex-col *:gap-[23px]"
+          >
+            <div>
+              <p class="grow">
+                Lorem ipsum dolor dolor sit amet, consectetuer adipiscing it
+                amet, consectetuer adipiscing it amet, consectetuer adipiscing
+                elit. Aenean commodo ligula eget dolor.
+              </p>
+              <span class=""> Glenn Lee</span>
+            </div>
+            <div>
+              <p class="grow">
+                Lorem ipsum dolor dolor sit amet, onsectetuer adipiscing it
+                amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                dolor.
+              </p>
+              <span class="">Mike</span>
+            </div>
+            <div>
+              <p class="grow">
+                consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                Lorem ipsum olor sit amet, consectetuer adipiscing it amet,
+                consectetuer adipiscing elit.
+              </p>
+              <span class="">Liam</span>
+            </div>
           </div>
         </div>
       </main>
