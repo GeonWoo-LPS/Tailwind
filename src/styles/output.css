@@ -620,6 +620,10 @@ video {
   margin-top: 258px;
 }
 
+.mb-11 {
+  margin-bottom: 2.75rem;
+}
+
 .box-content {
   box-sizing: content-box;
 }
@@ -1196,6 +1200,14 @@ video {
 
 .leading-\[54px\] {
   line-height: 54px;
+}
+
+.leading-4 {
+  line-height: 1rem;
+}
+
+.leading-normal {
+  line-height: 1.5;
 }
 
 .tracking-\[0\.15em\] {
