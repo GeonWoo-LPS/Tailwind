@@ -616,6 +616,10 @@ video {
   margin-top: 50px;
 }
 
+.mt-\[258px\] {
+  margin-top: 258px;
+}
+
 .box-content {
   box-sizing: content-box;
 }
@@ -701,6 +705,10 @@ video {
 .w-fit {
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.w-\[300px\] {
+  width: 300px;
 }
 
 .shrink-0 {
