@@ -632,6 +632,10 @@ video {
   display: inline-block;
 }
 
+.inline {
+  display: inline;
+}
+
 .flex {
   display: flex;
 }
@@ -1137,6 +1141,11 @@ video {
   font-size: 40px;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .font-black {
   font-weight: 900;
 }
@@ -1285,6 +1294,11 @@ video {
   color: rgb(253 224 71 / var(--tw-text-opacity));
 }
 
+.text-\[\#F2AA36\] {
+  --tw-text-opacity: 1;
+  color: rgb(242 170 54 / var(--tw-text-opacity));
+}
+
 .shadow-\[0_4px_4px_0_rgba\(0\2c 0\2c 0\2c 0\.1\)\] {
   --tw-shadow: 0 4px 4px 0 rgba(0,0,0,0.1);
   --tw-shadow-colored: 0 4px 4px 0 var(--tw-shadow-color);
@@ -1422,6 +1436,22 @@ video {
   background-color: rgb(255 0 122 / var(--tw-bg-opacity));
 }
 
+.after\:mx-auto::after {
+  content: var(--tw-content);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.after\:mt-1::after {
+  content: var(--tw-content);
+  margin-top: 0.25rem;
+}
+
+.after\:mb-5::after {
+  content: var(--tw-content);
+  margin-bottom: 1.25rem;
+}
+
 .after\:block::after {
   content: var(--tw-content);
   display: block;
@@ -1432,6 +1462,11 @@ video {
   height: 0.5rem;
 }
 
+.after\:h-1::after {
+  content: var(--tw-content);
+  height: 0.25rem;
+}
+
 .after\:w-\[100\%\]::after {
   content: var(--tw-content);
   width: 100%;
@@ -1440,6 +1475,16 @@ video {
 .after\:w-full::after {
   content: var(--tw-content);
   width: 100%;
+}
+
+.after\:w-\[77px\]::after {
+  content: var(--tw-content);
+  width: 77px;
+}
+
+.after\:rounded-full::after {
+  content: var(--tw-content);
+  border-radius: 9999px;
 }
 
 .after\:border-b-4::after {
@@ -1457,6 +1502,17 @@ video {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
   background-color: rgb(68 68 68 / var(--tw-bg-opacity));
+}
+
+.after\:bg-\[\#F2AA36\]::after {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(242 170 54 / var(--tw-bg-opacity));
+}
+
+.after\:text-center::after {
+  content: var(--tw-content);
+  text-align: center;
 }
 
 .hover\:bg-\[url\(\.\.\/re-example\/citrus\/images\/jamong\.png\)\]:hover {
